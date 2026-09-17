@@ -42,3 +42,37 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+
+# =========================================================================
+# ADDITIONAL DEVOPS TOOLS
+# =========================================================================
+
+# Ansible Vault
+*.vault_password
+.vault_password
+vault_pass.txt
+*vault_pass*
+
+# Kubernetes / Kubeconfig
+kubeconfig
+kubeconfig.yaml
+kubeconfig.yml
+*kubeconfig*
+.kube/
+config
+
+# Cloud CLI Credentials & Tokens
+.aws/
+aws/credentials
+aws/config
+.config/gcloud/
+gcloud/
+.azure/
+.oci/
+*openrc*
+*.openrc
+
+# General environment secret files
+.env
+.env.*
+.direnv/
