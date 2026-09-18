@@ -4,7 +4,7 @@
 # Infrastructure & Cloud Engineering Course Portfolio
 
 ## 🧭 Overview
-This repository contains all lab implementations, automation scripts, and infrastructure-as-code (IaC) artifacts developed throughout the Advanced Cloud Engineering & DevOps Course. 
+This repository contains all lab implementations, automation scripts, and infrastructure-as-code (IaC) artifacts developed throughout the Advanced Cloud Engineering & DevOps Course.
 
 Every phase demonstrates production-ready patterns emphasizing security-first design, immutable infrastructure, and automated delivery pipelines.
 
@@ -21,5 +21,5 @@ Every phase demonstrates production-ready patterns emphasizing security-first de
 ---
 
 ## 🔒 Security & Compliance Commitment
-* **Zero-Leak Policy:** This repository enforces automated pre-commit hooks and CI/CD secret scanning (via TruffleHog and detect-secrets). 
+* **Zero-Leak Policy:** This repository enforces automated pre-commit hooks and CI/CD secret scanning (via TruffleHog and detect-secrets).
 * **State Isolation:** All sensitive state files, variable overrides (`.tfvars`), and credential stores are strictly ignored via `.gitignore`.
